@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "3d2072db-c4b1-4b3d-b41c-6e0a48de72db",
+            "Value": {
+                "id": "9030dc0e-109b-44fe-80a8-6fcc6f73426c",
+                "resourcePath": "objects\\obj_sideways_walkway\\obj_sideways_walkway.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "402ba47f-9692-49fa-af10-5eb8445ff415",
             "Value": {
                 "id": "cbbd72e8-611e-4493-8d8b-11f7bc706e8d",
@@ -100,6 +108,14 @@
                 "id": "a613432c-82cf-4ff2-95fa-9d4e740fa436",
                 "resourcePath": "views\\72364ea0-61ea-4132-82e1-4f9a9a7b8cd7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "73c6f347-cb6d-4133-90af-38c6c3670772",
+            "Value": {
+                "id": "89be4e3b-a8ef-463b-8692-fe2ba1f250a7",
+                "resourcePath": "sprites\\spr_walkway_sideways\\spr_walkway_sideways.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -231,6 +247,14 @@
             }
         },
         {
+            "Key": "d0f1f43c-cd9a-498f-9d0e-9f3be2fb1cde",
+            "Value": {
+                "id": "2f846acc-b46d-47a8-9e08-3962b46e9156",
+                "resourcePath": "objects\\obj_game_control\\obj_game_control.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d14b70a4-49c8-458e-aa10-e2f80bccd8e3",
             "Value": {
                 "id": "b2c027c9-b295-43b1-ae0d-d9c569fb6245",
@@ -268,6 +292,14 @@
                 "id": "f60354d7-2b1c-4f0e-9bba-053dff69c368",
                 "resourcePath": "views\\d8dcedcd-0345-47e3-809b-82525a1f6855.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dc989d08-98c9-4a7a-b9a1-1fa4e2452d64",
+            "Value": {
+                "id": "dc21eb3b-804e-4de2-96e4-b5b9f5ba1e1c",
+                "resourcePath": "sprites\\spr_money\\spr_money.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
