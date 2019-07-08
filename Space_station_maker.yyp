@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "4454d7f2-f2be-4250-9781-5e6bcfe9fb64",
+            "Value": {
+                "id": "f51cb634-af33-41fb-9470-f58e4647de3a",
+                "resourcePath": "sprites\\spr_tech_bay\\spr_tech_bay.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4b0e83b7-2069-4249-8245-069fac14c146",
             "Value": {
                 "id": "1b54fdb2-505f-4cbc-a6f4-851ca33d615b",
@@ -95,6 +103,14 @@
             }
         },
         {
+            "Key": "7eaf3a1b-241a-41ed-8df9-9c56cf8b951a",
+            "Value": {
+                "id": "9957bc2d-4706-4d6a-ad07-6752495485d5",
+                "resourcePath": "sprites\\spr_small_crew_cabin\\spr_small_crew_cabin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8140c414-80db-479e-9c6b-05dedfa49e18",
             "Value": {
                 "id": "bd3ce001-eba2-445f-84b3-9eb59b56802c",
@@ -124,6 +140,14 @@
                 "id": "f1e16a3d-8621-4240-b33a-69ca9756d627",
                 "resourcePath": "sprites\\spr_command_center\\spr_command_center.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9bfadb03-f6e1-4569-b0de-103830aacf1a",
+            "Value": {
+                "id": "7f2faf31-a922-4bde-adf0-76b44719f3a9",
+                "resourcePath": "objects\\obj_tech_bay\\obj_tech_bay.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -171,6 +195,14 @@
             "Value": {
                 "id": "19eba447-73a5-4122-b4e7-c1e8e0069ee0",
                 "resourcePath": "objects\\obj_control_center\\obj_control_center.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c89ec9aa-4642-403e-8926-1024bbe7bd9c",
+            "Value": {
+                "id": "3028f711-1d03-4352-ab11-c66b7bd04f6a",
+                "resourcePath": "objects\\obj_small_crew_cabin\\obj_small_crew_cabin.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -244,6 +276,14 @@
                 "id": "cbb0d2e9-37a5-48fe-8794-bf5de4483857",
                 "resourcePath": "sprites\\spr_building_bar\\spr_building_bar.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ee8900dd-b40f-418c-8012-351845e0315e",
+            "Value": {
+                "id": "9277b2f5-0ca6-472e-b844-60b27267477d",
+                "resourcePath": "objects\\obj_crew_cabbin_large\\obj_crew_cabbin_large.yy",
+                "resourceType": "GMObject"
             }
         },
         {

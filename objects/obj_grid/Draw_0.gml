@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 var xx = 0
-var cs = obj_grid_test.cellSize
+var cs = obj_hallway.cellSize
 
 draw_set_alpha(0.3)
 var r = roomWidth div cs;
