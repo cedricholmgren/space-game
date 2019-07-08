@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_tech_bay",
     "eventList": [
-        
+        {
+            "id": "62da503e-fd19-4abd-bc2d-bd7ef57ca0b0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "9bfadb03-f6e1-4569-b0de-103830aacf1a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

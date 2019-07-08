@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_crew_cabbin_large",
     "eventList": [
-        
+        {
+            "id": "121ec23c-c79e-4ddb-8094-a02bd726683c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "ee8900dd-b40f-418c-8012-351845e0315e"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
