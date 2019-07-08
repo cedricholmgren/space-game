@@ -2,7 +2,7 @@
     "id": "d7d6bb44-7d5a-4a3c-a2f1-9833e68904b3",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_fart",
+    "name": "spr_hallway",
     "For3D": false,
     "HTile": false,
     "VTile": false,
