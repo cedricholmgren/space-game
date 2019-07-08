@@ -210,7 +210,7 @@
             "Key": "d1bc5666-e637-48ac-9468-cff6e83f831a",
             "Value": {
                 "id": "c685a392-923d-4c98-87bb-545f643c6271",
-                "resourcePath": "objects\\obj_walkway\\obj_walkway.yy",
+                "resourcePath": "objects\\obj_hallway\\obj_hallway.yy",
                 "resourceType": "GMObject"
             }
         },
