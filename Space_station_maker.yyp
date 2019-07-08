@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "a7f90a77-99c2-4b0c-b7c9-562b38e3a1ae",
+            "Value": {
+                "id": "46f27bb5-b143-457c-b819-fdd8b9ec917b",
+                "resourcePath": "sprites\\spr_crew_cabin_large\\spr_crew_cabin_large.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "264ad0d3-0c89-42b9-b93b-6aa4ec69b356",
