@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "9c2e0fe9-101f-47a8-a0e0-aaad4964dfec",
+            "Value": {
+                "id": "f795f385-e930-454d-b775-119c98b5d9d5",
+                "resourcePath": "sprites\\spr_crew_cabin_3x\\spr_crew_cabin_3x.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a0348e79-4487-46b4-9356-376c26aa4bda",
             "Value": {
                 "id": "0789fbaf-c47a-4aea-9073-c7e4bdeaa5f0",
@@ -204,6 +212,14 @@
                 "id": "37dd2354-638e-4f06-8289-20d9fae5990b",
                 "resourcePath": "objects\\obj_building_bar\\obj_building_bar.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b70e7c94-b587-4975-9b3a-597cc1e54337",
+            "Value": {
+                "id": "22dd9343-86a2-4d12-97e2-89f28708337c",
+                "resourcePath": "sprites\\spr_tech_bay_3x\\spr_tech_bay_3x.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -314,7 +330,7 @@
             "Key": "ee8900dd-b40f-418c-8012-351845e0315e",
             "Value": {
                 "id": "9277b2f5-0ca6-472e-b844-60b27267477d",
-                "resourcePath": "objects\\obj_crew_cabbin_large\\obj_crew_cabbin_large.yy",
+                "resourcePath": "objects\\obj_crew_cabin_large\\obj_crew_cabin_large.yy",
                 "resourceType": "GMObject"
             }
         },
