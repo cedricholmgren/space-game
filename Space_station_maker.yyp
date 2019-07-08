@@ -202,7 +202,7 @@
             "Key": "d1eaefac-ba63-49e9-9544-aead73ac0f0f",
             "Value": {
                 "id": "8df8f383-f539-45e5-af99-9f4c42363d5b",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_game\\rm_game.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -212,6 +212,14 @@
                 "id": "8dea1bb8-7e4a-4db7-98b4-071c45700a2d",
                 "resourcePath": "views\\d7549d53-4956-4687-840a-b89400172880.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d7d6bb44-7d5a-4a3c-a2f1-9833e68904b3",
+            "Value": {
+                "id": "122d2ab2-af54-4030-86fe-11fbb18c1f98",
+                "resourcePath": "sprites\\spr_fart\\spr_fart.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
