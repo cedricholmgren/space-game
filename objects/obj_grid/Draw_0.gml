@@ -9,8 +9,10 @@ repeat (r) {
 	xx += cs
 }
 
+// jamon
+
 var yy = 0
-var r = roomHeight div cs;
+var r = roomHeight div cs; // cedric
 repeat (r) {
 	draw_line_color(0, yy, roomWidth, yy, c_white, c_white)
 	yy += cs
