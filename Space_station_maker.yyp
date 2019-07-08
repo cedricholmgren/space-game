@@ -231,14 +231,6 @@
             }
         },
         {
-            "Key": "d7d6bb44-7d5a-4a3c-a2f1-9833e68904b3",
-            "Value": {
-                "id": "122d2ab2-af54-4030-86fe-11fbb18c1f98",
-                "resourcePath": "sprites\\spr_hallway\\spr_hallway.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d8dcedcd-0345-47e3-809b-82525a1f6855",
             "Value": {
                 "id": "f60354d7-2b1c-4f0e-9bba-053dff69c368",
