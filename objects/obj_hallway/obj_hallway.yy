@@ -2,7 +2,7 @@
     "id": "d1bc5666-e637-48ac-9468-cff6e83f831a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_walkway",
+    "name": "obj_hallway",
     "eventList": [
         
     ],
