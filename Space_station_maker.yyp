@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "dc3ad4c8-0835-4eee-80df-98e54d98306c",
+            "Value": {
+                "id": "9386d874-70bc-4963-aa7d-436928dd80e0",
+                "resourcePath": "sprites\\spr_barracks\\spr_barracks.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dc989d08-98c9-4a7a-b9a1-1fa4e2452d64",
             "Value": {
                 "id": "dc21eb3b-804e-4de2-96e4-b5b9f5ba1e1c",
