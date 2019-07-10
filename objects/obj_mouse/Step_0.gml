@@ -8,5 +8,5 @@ x = xx
 y = yy
 
 if (instance_position(x, y, obj_build_v_road) && mouse_check_button_pressed(mb_left)) {
-	
+	sprite_index = spr_v_road_build
 }

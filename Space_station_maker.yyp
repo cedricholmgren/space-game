@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "010f66b9-16d2-48eb-ad7d-3263b88937ed",
+            "Value": {
+                "id": "49a4cadf-44e9-4a59-9dd3-0656f83ac65c",
+                "resourcePath": "views\\010f66b9-16d2-48eb-ad7d-3263b88937ed.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0614d319-c41e-4b3a-a9c5-f4abf536c9e9",
             "Value": {
                 "id": "6d0f4580-248e-44bb-a2b6-730542e859f7",
@@ -42,7 +50,7 @@
             "Key": "0d04e542-ee94-491c-95fd-4a245d9d509b",
             "Value": {
                 "id": "5988b564-62a1-49cc-8fca-7a260cc3910a",
-                "resourcePath": "sprites\\spr_mouse\\spr_mouse.yy",
+                "resourcePath": "sprites\\spr_blank\\spr_blank.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -123,6 +131,14 @@
             "Value": {
                 "id": "89be4e3b-a8ef-463b-8692-fe2ba1f250a7",
                 "resourcePath": "sprites\\spr_walkway_sideways\\spr_walkway_sideways.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "759c5ae6-2790-491c-a58c-032596e68569",
+            "Value": {
+                "id": "6c370252-f2f4-4ae9-adad-b2e479671347",
+                "resourcePath": "sprites\\spr_v_road_build\\spr_v_road_build.yy",
                 "resourceType": "GMSprite"
             }
         },
