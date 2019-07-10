@@ -2,7 +2,7 @@
     "id": "a99f8a9d-45c1-400d-aeff-69ad8a09414a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_building_bar",
+    "name": "obj_build_v_road",
     "eventList": [
         
     ],
