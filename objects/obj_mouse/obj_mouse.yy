@@ -45,6 +45,34 @@
             "value": "16",
             "varName": "cellSize",
             "varType": 0
+        },
+        {
+            "id": "514ba4ee-3b44-42a9-bee3-f2e673e8bfdc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "building_v_road",
+            "varType": 3
+        },
+        {
+            "id": "2c5a2cd0-cf3b-4922-af7e-766d506329af",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "building_h_road",
+            "varType": 3
         }
     ],
     "solid": false,

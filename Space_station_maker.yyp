@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "897d15ae-6fcc-4a47-a7d0-083554ac5018",
+            "Value": {
+                "id": "0c14127c-c2c9-428d-b62a-1abe0ff7a348",
+                "resourcePath": "sprites\\spr_empty_room\\spr_empty_room.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8da9e636-b9ca-4a2c-ba1b-b71e7ba40833",
             "Value": {
                 "id": "68919481-3e45-4c09-a026-97a9845dfa97",
@@ -175,11 +183,27 @@
             }
         },
         {
+            "Key": "912d1aae-8bf0-4032-a8b3-9b878bbfa1f7",
+            "Value": {
+                "id": "0285090a-a287-43a2-a699-ad6a5dbc26b5",
+                "resourcePath": "sprites\\spr_build_h_road_terminal\\spr_build_h_road_terminal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "91ebc2a4-a050-4399-b5b2-38931a346a7c",
             "Value": {
                 "id": "f1e16a3d-8621-4240-b33a-69ca9756d627",
                 "resourcePath": "sprites\\spr_command_center\\spr_command_center.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "94602075-0f93-4e89-8991-421bb3a32bc6",
+            "Value": {
+                "id": "9579e871-4c70-4d6b-af45-e6c261238889",
+                "resourcePath": "objects\\obj_empty_room\\obj_empty_room.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -251,6 +275,14 @@
             "Value": {
                 "id": "19eba447-73a5-4122-b4e7-c1e8e0069ee0",
                 "resourcePath": "objects\\obj_control_center\\obj_control_center.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c2df084f-1646-45f7-bf96-8c9fa1445516",
+            "Value": {
+                "id": "7c76a9c7-b426-4be1-98a8-949ccc9fcf3d",
+                "resourcePath": "objects\\obj_build_h_road\\obj_build_h_road.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -351,10 +383,18 @@
             }
         },
         {
+            "Key": "edad9369-a890-49d7-96ba-695ab9ac88fe",
+            "Value": {
+                "id": "cbe020ae-b2da-4877-99dc-abfc88d7ef5e",
+                "resourcePath": "sprites\\spr_h_road_build\\spr_h_road_build.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ee438f32-32f3-41b9-933e-a916da07887b",
             "Value": {
                 "id": "cbb0d2e9-37a5-48fe-8794-bf5de4483857",
-                "resourcePath": "sprites\\spr_building_bar\\spr_building_bar.yy",
+                "resourcePath": "sprites\\spr_build_v_road_terminal\\spr_build_v_road_terminal.yy",
                 "resourceType": "GMSprite"
             }
         },
