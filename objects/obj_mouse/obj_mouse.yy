@@ -85,7 +85,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "building_empty_road",
+            "varName": "building_empty_room",
             "varType": 3
         }
     ],
