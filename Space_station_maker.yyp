@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "6d29cd8d-ac4a-4ae9-94a6-565da77b766a",
+            "Value": {
+                "id": "ca33aab0-58a2-4cd9-8268-8f063103641c",
+                "resourcePath": "views\\6d29cd8d-ac4a-4ae9-94a6-565da77b766a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "72364ea0-61ea-4132-82e1-4f9a9a7b8cd7",
             "Value": {
                 "id": "a613432c-82cf-4ff2-95fa-9d4e740fa436",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "89df306f-1d97-49a0-aa31-01f2722a48ef",
+            "Value": {
+                "id": "035235ca-b1ee-4851-84f1-9dded86bced8",
+                "resourcePath": "sprites\\spr_build_empty_room_terminal\\spr_build_empty_room_terminal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8da9e636-b9ca-4a2c-ba1b-b71e7ba40833",
             "Value": {
                 "id": "68919481-3e45-4c09-a026-97a9845dfa97",
@@ -196,6 +212,14 @@
                 "id": "f1e16a3d-8621-4240-b33a-69ca9756d627",
                 "resourcePath": "sprites\\spr_command_center\\spr_command_center.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "930b2c3b-1e30-4291-93af-bfaac87fdb5c",
+            "Value": {
+                "id": "a872fc42-6b21-460c-b330-fa78f800237c",
+                "resourcePath": "views\\930b2c3b-1e30-4291-93af-bfaac87fdb5c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -348,6 +372,14 @@
                 "id": "8df8f383-f539-45e5-af99-9f4c42363d5b",
                 "resourcePath": "rooms\\rm_game\\rm_game.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d73715da-17f9-47f4-ac27-789a9569c991",
+            "Value": {
+                "id": "3f40cbfc-813f-4335-92d9-20681e786556",
+                "resourcePath": "objects\\obj_build_empty_room\\obj_build_empty_room.yy",
+                "resourceType": "GMObject"
             }
         },
         {

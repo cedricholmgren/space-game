@@ -73,6 +73,20 @@
             "value": "0",
             "varName": "building_h_road",
             "varType": 3
+        },
+        {
+            "id": "bbdda5a0-d87e-4634-9f52-2ebc64ede954",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "building_empty_road",
+            "varType": 3
         }
     ],
     "solid": false,

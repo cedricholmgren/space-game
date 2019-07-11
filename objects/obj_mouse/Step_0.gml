@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+//Makes everything snap to grid
 var xx = mouse_x div cellSize;
 var yy = mouse_y div cellSize;
 xx = xx * cellSize
@@ -32,15 +33,15 @@ if (mouse_check_button_pressed(mb_right)) {
 	sprite_index = spr_blank;
 }
 
-
-if (instance_position(x, y, obj_empty_room) && mouse_check_button_pressed(mb_left)) {
-	sprite_index = spr_h_road_build
-	building_h_road = true;
+// Building Empty room
+if (instance_position(x, y, obj_build_empty_room) && mouse_check_button_pressed(mb_left)) {
+	sprite_index = spr_empty_room
+	building_empty_road = true;
 }
-if (building_h_road = true && mouse_check_button_pressed(mb_left)) {
-		instance_create_layer(x - 16, y - 16, rm_game, obj_sideways_walkway)
+if (building_empty_road = true && mouse_check_button_pressed(mb_left)) {
+		instance_create_layer(x, y, rm_game, obj_empty_room)
 }
 if (mouse_check_button_pressed(mb_right)) {
-	building_h_road = false;
+	building_empty_road = false;
 	sprite_index = spr_blank;
 }
