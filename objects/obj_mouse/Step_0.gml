@@ -14,7 +14,8 @@ if (instance_position(x, y, obj_build_v_road) && mouse_check_button_pressed(mb_l
 	building_h_road = false;
 	building_empty_room = false;
 }
-if (building_v_road = true && mouse_check_button_pressed(mb_left) && !instance_position(x,y, obj_build_v_road)) {
+//Codename: Qcode; All of this crap gets really long because otherwise it places buildings under the build menu, hwever you dont need to keep adding objects if those said objects are above the current object you are working on just to give a reference for why this is such a mess: If you are still reading at this point, good job. -Cedric
+if (building_v_road = true && mouse_check_button_pressed(mb_left) && !instance_position(x,y, obj_build_v_road) && !instance_position(x,y, obj_build_h_road) && !instance_position(x,y, obj_build_empty_room)) {
 		instance_create_layer(x - 16, y - 16, rm_game, obj_hallway)
 }
 if (mouse_check_button_pressed(mb_right)) {
@@ -31,7 +32,8 @@ if (instance_position(x, y, obj_build_h_road) && mouse_check_button_pressed(mb_l
 	building_empty_room = false;
 }
 	// Actually building it
-if (building_h_road = true && mouse_check_button_pressed(mb_left) && !instance_position(x,y, obj_build_h_road)) {
+	//Qcode
+if (building_h_road = true && mouse_check_button_pressed(mb_left) && !instance_position(x,y, obj_build_h_road)&& !instance_position(x,y, obj_build_h_road)&& !instance_position(x,y, obj_build_empty_room)) {
 		instance_create_layer(x - 16, y - 16, rm_game, obj_sideways_walkway)
 }
 	// Disabling the build
@@ -47,6 +49,7 @@ if (instance_position(x, y, obj_build_empty_room) && mouse_check_button_pressed(
 	building_h_road = false;
 	building_v_road = false;
 }
+//Qcode
 if (building_empty_room = true && mouse_check_button_pressed(mb_left) && !instance_position(x,y, obj_build_empty_room)) {
 		instance_create_layer(x, y, rm_game, obj_empty_room)
 }
