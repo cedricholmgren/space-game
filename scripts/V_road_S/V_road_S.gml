@@ -1,0 +1,1 @@
+//if (collision_point(x, y - 20 || y + 20, obj_build_command, true, false))
