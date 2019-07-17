@@ -15,9 +15,24 @@ if (instance_position(x, y, obj_build_v_road) && mouse_check_button_pressed(mb_l
 	building_empty_room = false;
 }
 //Codename: Qcode; All of this crap gets really long because otherwise it places buildings under the build menu, hwever you dont need to keep adding objects if those said objects are above the current object you are working on just to give a reference for why this is such a mess: If you are still reading at this point, good job. -Cedric
-if (building_v_road = true && mouse_check_button_pressed(mb_left)  && !instance_position(x,y, obj_build_v_road) && !instance_position(x,y, obj_build_h_road) && !instance_position(x,y, obj_build_empty_room)) && /*SO MUCH CODE: this part past here restricts where the player can build --->*/(instance_position(x, y - 17, obj_build_command) || instance_position(x, y + 17, obj_build_command) && !instance_position(x, y, obj_build_command)) {
-		instance_create_layer(x - 16, y - 16, rm_game, obj_hallway)
+if (
+	(
+		building_v_road == true
+		&& mouse_check_button_pressed(mb_left)
+		&& !instance_position(x,y, obj_build_v_road)
+		&& !instance_position(x,y, obj_build_h_road)
+		&& !instance_position(x,y, obj_build_empty_room)
+	)
+	&& /*SO MUCH CODE: this part past here restricts where the player can build --->*/
+	(
+		instance_position(x, y - 17, obj_build_command)
+		|| instance_position(x, y + 17, obj_build_command)
+		&& !instance_position(x, y, obj_build_command)
+	)
+) {
+	instance_create_layer(x - 16, y - 16, rm_game, obj_hallway)
 }
+
 if (mouse_check_button_pressed(mb_right)) {
 	building_v_road = false;
 	sprite_index = spr_blank;
