@@ -48,7 +48,19 @@ if (instance_position(x, y, obj_build_h_road) && mouse_check_button_pressed(mb_l
 }
 	// Actually building it
 	//Qcode
-if (building_h_road = true && mouse_check_button_pressed(mb_left) && !instance_position(x,y, obj_build_h_road)&& !instance_position(x,y, obj_build_h_road)&& !instance_position(x,y, obj_build_empty_room )) {
+if (
+	building_h_road = true 
+	&& mouse_check_button_pressed(mb_left) 
+	&& !instance_position(x,y, obj_build_h_road)
+	&& !instance_position(x,y, obj_build_h_road)
+	&& !instance_position(x,y, obj_build_empty_room )
+	&&
+	(
+	instance_position(x - 17, y, obj_build_command)
+	|| instance_position(x + 17, y, obj_build_command)
+	&& !instance_position(x, y, obj_build_command)
+	)
+	) {
 		instance_create_layer(x - 16, y - 16, rm_game, obj_sideways_walkway)
 }
 	// Disabling the build
@@ -65,7 +77,11 @@ if (instance_position(x, y, obj_build_empty_room) && mouse_check_button_pressed(
 	building_v_road = false;
 }
 //Qcode
-if (building_empty_room = true && mouse_check_button_pressed(mb_left) && !instance_position(x,y, obj_build_empty_room)) {
+if (
+	building_empty_room = true 
+	&& mouse_check_button_pressed(mb_left) 
+	&& !instance_position(x,y, obj_build_empty_room)
+	) {
 		instance_create_layer(x, y, rm_game, obj_empty_room)
 }
 if (mouse_check_button_pressed(mb_right)) {
