@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "206ceca7-acc4-4d2d-ae73-eb7c42ae2469",
+            "Value": {
+                "id": "13c40af4-841e-4b59-8afe-1cdb17a40324",
+                "resourcePath": "sprites\\spr_Johnson\\spr_Johnson.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "35d31065-7297-4255-b861-166fc00be163",
             "Value": {
                 "id": "f05db005-f273-48fd-b952-655f6caf78f2",
