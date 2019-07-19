@@ -81,6 +81,14 @@ if (
 	building_empty_room = true 
 	&& mouse_check_button_pressed(mb_left) 
 	&& !instance_position(x,y, obj_build_empty_room)
+	&&
+	(
+	instance_position(x + 16, y - 1, obj_build_command)
+	|| instance_position(x - 1, y + 16, obj_build_command)
+	|| instance_position(x + 33, y + 16, obj_build_command)
+	|| instance_position(x + 16, y + 33, obj_build_command)
+	&& !instance_position(x, y, obj_build_command)
+	)
 	) {
 		instance_create_layer(x, y, rm_game, obj_empty_room)
 }
