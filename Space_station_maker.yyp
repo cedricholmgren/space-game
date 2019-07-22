@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "02efb4e6-0306-474d-8e8a-46bbf1e23c93",
+            "Value": {
+                "id": "fb32686f-7660-4390-8b0b-7f6a289ebf88",
+                "resourcePath": "objects\\obj_Hero2\\obj_Hero2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0614d319-c41e-4b3a-a9c5-f4abf536c9e9",
             "Value": {
                 "id": "6d0f4580-248e-44bb-a2b6-730542e859f7",
@@ -59,6 +67,14 @@
             "Value": {
                 "id": "13c40af4-841e-4b59-8afe-1cdb17a40324",
                 "resourcePath": "sprites\\spr_Johnson\\spr_Johnson.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2702b1ea-c8d0-43dd-9050-5b0be753a329",
+            "Value": {
+                "id": "3f9c26b1-cabc-4294-8161-1ce7754efed8",
+                "resourcePath": "sprites\\spr_S_H_E\\spr_S_H_E.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -100,6 +116,14 @@
                 "id": "f51cb634-af33-41fb-9470-f58e4647de3a",
                 "resourcePath": "sprites\\spr_tech_bay\\spr_tech_bay.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4a2d2a09-8421-4b2e-b220-b816e3240df8",
+            "Value": {
+                "id": "c012dd48-7c0b-4540-acae-ee19a07b7fda",
+                "resourcePath": "objects\\obj_S_H_E\\obj_S_H_E.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -348,6 +372,14 @@
                 "id": "37dd2354-638e-4f06-8289-20d9fae5990b",
                 "resourcePath": "objects\\obj_build_v_road\\obj_build_v_road.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "af29624f-97c2-40be-9ef1-c4098aa83bc4",
+            "Value": {
+                "id": "e75417cc-8a1b-4eb4-b2e1-01fb201d4ece",
+                "resourcePath": "sprites\\spr_Carpenter\\spr_Carpenter.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
