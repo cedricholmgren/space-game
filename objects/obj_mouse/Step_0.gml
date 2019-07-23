@@ -25,12 +25,13 @@ if (
 	)
 	&& /*SO MUCH CODE: this part past here restricts where the player can build --->*/
 	(
-		instance_position(x, y - 17, obj_build_command)
-		|| instance_position(x, y + 17, obj_build_command)
-		&& !instance_position(x, y, obj_build_command)
+		(instance_position(x + 16, y + 33, obj_build_command)
+		|| instance_position(x + 16, y - 1, obj_build_command))
+		//&& !instance_position(x + 16, y + 16, obj_build_command)
+		&& !collision_rectangle(x + 6, y - 0, x + 25, y + 31, obj_build_command, true, false)
 	)
 ) {
-	instance_create_layer(x - 16, y - 16, rm_game, obj_hallway)
+	instance_create_layer(x, y, rm_game, obj_hallway)
 }
 
 if (mouse_check_button_pressed(mb_right)) {
@@ -56,12 +57,12 @@ if (
 	&& !instance_position(x,y, obj_build_empty_room )
 	&&
 	(
-	instance_position(x - 17, y, obj_build_command)
-	|| instance_position(x + 17, y, obj_build_command)
-	&& !instance_position(x, y, obj_build_command)
+	(instance_position(x + 33, y + 16, obj_build_command)
+	|| instance_position(x - 1, y + 16, obj_build_command))
+	&& !collision_rectangle(x, y + 6, x + 31, y + 25, obj_build_command, true, false)
 	)
 	) {
-		instance_create_layer(x - 16, y - 16, rm_game, obj_sideways_walkway)
+		instance_create_layer(x, y, rm_game, obj_sideways_walkway)
 }
 	// Disabling the build
 if (mouse_check_button_pressed(mb_right)) {
@@ -83,11 +84,11 @@ if (
 	&& !instance_position(x,y, obj_build_empty_room)
 	&&
 	(
-	instance_position(x + 16, y - 1, obj_build_command)
+	(instance_position(x + 16, y - 1, obj_build_command)
 	|| instance_position(x - 1, y + 16, obj_build_command)
 	|| instance_position(x + 33, y + 16, obj_build_command)
-	|| instance_position(x + 16, y + 33, obj_build_command)
-	&& !instance_position(x, y, obj_build_command)
+	|| instance_position(x + 16, y + 33, obj_build_command))
+	&& !collision_rectangle(x, y, x + 31, y + 31, obj_build_command, true, false)
 	)
 	) {
 		instance_create_layer(x, y, rm_game, obj_empty_room)
@@ -96,4 +97,4 @@ if (mouse_check_button_pressed(mb_right)) {
 	building_empty_room = false;
 	sprite_index = spr_blank;
 }
-// This is awesome!!!!!!
+// This is awesome!!!!!! Note, when II wrote this previous sentence I had no idea on how much work this would take 
